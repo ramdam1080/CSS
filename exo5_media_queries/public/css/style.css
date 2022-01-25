@@ -1,0 +1,78 @@
+
+*{margin: 0;}
+
+
+@media screen and (min-width:1024px) and (max-width:2560px) {
+
+    .color1{
+        background-color: blue;
+        width: 33vw;
+        height: 33vw;
+
+    }
+    .color2{
+        background-color: red;
+        width: 33vw;
+        height: 33vw;
+        
+            }
+    .color3{
+        background-color: orangered;
+        height: 33vw;
+        width: 33vw;
+        
+        
+    }
+}
+    
+    
+    @media screen and (min-width:600px) and (max-width:1024px) {
+        .color1{
+            background-color: blue;
+            width: 50vw;
+            height: 50vw;
+        }
+        .color2{
+            background-color: red;
+            width: 50vw;
+            height: 50vw;
+            
+                }
+        .color3{
+            background-color: orangered;
+            height: 50vw;
+            width: vw;
+            
+            
+        }
+        
+    
+    }
+    
+    @media screen and (min-width:320px) and (max-width:600px) {
+        .color1{
+            background-color: blue;
+            width: 100vw;
+            height: 100vw;
+        }
+        .color2{
+            background-color: red;
+            width: 100vw;
+            height: 100vw;
+            
+                }
+        .color3{
+            background-color: orangered;
+            height: 100vw;
+            width: 100vw;
+            
+            
+        }
+        
+
+
+
+    }
+
+
+    

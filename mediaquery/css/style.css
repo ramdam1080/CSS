@@ -1,0 +1,136 @@
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+@media screen and (min-width:1250px) and (max-width:2560px) {
+    ul:first-of-type li:first-of-type {
+        color: blue;
+    }
+
+    ul:first-of-type li:nth-of-type(2) {
+        color: green;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:1250px) {
+    ul:nth-of-type(2) li:first-of-type {
+        color: orange;
+
+    }
+
+    ul:nth-of-type(2) li:nth-of-type(2) {
+
+        color: red;
+    }
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:1000px) {
+
+    ul:nth-of-type(3) li:first-of-type {
+        font-weight: bold;
+        text-decoration: underline;
+
+    }
+
+
+}
+
+@media screen and (min-width:1250px) and (max-width:2560px) {
+    ul:nth-of-type(3) li:nth-of-type(2) {
+
+        font-style: italic;
+        color: blue;
+
+    }
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:800px) {
+
+    h2:nth-of-type(4) {
+        border: blue solid 2px;
+        color: green;
+
+
+
+    }
+
+}
+
+@media screen and (min-width:900px) and (max-width:2560px) {
+
+    h2:nth-of-type(4) {
+        border: blue solid 2px;
+        color: green;
+
+
+
+    }
+
+}
+
+@media screen and (min-width:900px) and (max-width:1250px) {
+
+    h2:nth-of-type(5) {
+        border: blue solid 2px;
+        color: red;
+    }
+
+    ul:nth-of-type(5) li {
+
+        border: blue solid 2px;
+        color: red;
+
+    }
+
+
+}
+
+#exo6 {
+    height: 250px;
+    width: 250px;
+    background-image: url('../images/tartine.jpg');
+    background-size: contain;
+background-position: fixed;
+
+}
+
+@media screen and (min-width:0px) and (max-width:900px) {
+    #exo6 {
+        height: 150px;
+        width: 150px;
+    }
+
+}
+
+@media print {
+h2{color: black;}
+*{background-image: none;}
+
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+   nav ul {
+      
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1250px) and (max-width:2560px) {
+    a{font-size: 30px;}
+    a:hover{color: green;}
+
+    
+}
+
+@media screen and (min-width:0px) and (max-width:576px){
+
+a:hover{color:orange;}
+
+}

@@ -1,0 +1,42 @@
+div {
+    background-color: chocolate;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section1 */
+section:first-of-type {
+    display: flex;
+}
+
+section:first-of-type>div {
+    flex: auto;
+}
+
+/* fin de section1 */
+
+
+/* section2 */
+section:nth-of-type(2) {
+    display: flex;
+}
+
+section:nth-of-type(2) >div{
+ flex: auto;
+}
+/* fin de section2 */
+
+
+/* section3 */
+
+section:nth-of-type(3){display: flex;}
+section:nth-of-type(3)>div{flex: auto;}
+
+/* fin section3 */
+
+
+section:last-of-type{display: flex;}
+section:last-of-type>div{flex: auto;}

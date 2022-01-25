@@ -1,0 +1,118 @@
+h1:first-of-type {
+
+    max-width: max-content;
+    /* border-bottom: 0px solid red; */
+    position: relative;
+
+
+
+}
+
+
+
+
+h1:first-of-type::before {
+    content: "";
+
+
+    position: absolute;
+    border-bottom: red 3px solid;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+
+    transition: 5s;
+}
+
+
+h1:first-of-type:hover::before {
+
+    width: 100%;
+
+
+
+
+}
+
+h1:nth-of-type(2){
+position: relative
+;
+max-width: max-content;
+
+
+
+}
+
+
+h1:nth-of-type(2)::before{
+    content: "";
+position: absolute;
+width: 0%;
+height: 3px;
+bottom: 0;
+border-bottom: red 3px solid;
+transition: all 2s;
+right: 50%;
+
+}
+
+
+
+h1:nth-of-type(2)::after{
+    content: "";
+position: absolute;
+width: 0%;
+height: 3px;
+bottom: 0;
+border-bottom: red 3px solid;
+transition: all 2s;
+left: 50%;
+
+}
+
+
+
+h1:nth-of-type(2):hover::before{
+    width: 50%;
+
+
+
+}
+
+h1:nth-of-type(2):hover::after{
+   width: 50%;
+
+
+
+}
+
+
+
+h1:last-of-type{
+position: relative;
+max-width: max-content;
+
+    
+}
+
+
+h1:last-of-type::before{
+content: "";
+position: absolute;
+height: 0%;
+width: 100%;
+transition: 3s;
+bottom: 0;
+z-index: -1;
+
+}
+
+
+
+
+h1:last-of-type:hover::before{
+height: 100%;
+background-color: red;
+
+
+}

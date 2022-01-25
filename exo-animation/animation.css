@@ -1,0 +1,80 @@
+div {
+  animation: move 2s;
+  animation-fill-mode: forwards;
+  /* animation-direction: reverse; */
+  animation-iteration-count: 2;
+  /* animation-direction: alternate-reverse; */
+
+}
+
+div:hover {
+  animation-play-state: paused;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  /* 0% */
+  to {
+    left: 200px;
+  }
+
+  /* 100% */
+}
+
+@keyframes move {
+  0% {
+    left: 0px;
+  }
+
+  25% {
+    top: 0px;
+    left: 100px;
+
+  }
+
+  50% {
+    left: 100px;
+    top: 100px;
+
+
+  }
+
+  75% {
+    left: 0px;
+    top: 100px;
+
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+
+}
+
+h2{
+animation: bounce 1s  ease-in-out infinite alternate  ;
+
+
+
+}
+h2{
+  position: relative;
+}
+
+
+@keyframes bounce {
+  /* from {top: 100px; font-size: 20px;}
+  to   {top: -300px; font-size: 60px;} */
+
+  0%{bottom: 0; transform: scale(1, 0.5); }
+50%{bottom: 300px; transform: scale(1);}
+100%{bottom: 0;transform: scale(1, 0.5);}
+
+
+
+
+}

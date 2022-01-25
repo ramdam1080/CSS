@@ -1,0 +1,36 @@
+section{
+display: flex;
+
+}
+
+.col{
+display: flex;
+flex-direction: column;
+flex: 1;
+
+}
+
+.row{
+display: flex;
+
+flex: 1;
+
+
+
+}
+
+.col div , .row div {
+
+    background-color: red;
+    margin: 5px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+ flex: 1;
+}
+
+
+
+

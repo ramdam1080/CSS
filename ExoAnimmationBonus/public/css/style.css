@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px;
+}
+
+p {
+
+    margin-top: 50px;
+    z-index: 1;
+}
+
+
+.bg-gris {
+
+    animation: gris 3s linear alternate-reverse 1s infinite forwards;
+    z-index: -1;
+    position: relative;
+    bottom: 35px;
+    background-color: gainsboro;
+    width: 220px;
+    height: 20px;
+
+}
+
+.bg {
+
+
+    animation: rouge 3s ease-in-out alternate-reverse infinite forwards;
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+@keyframes gris {
+    0% {
+        bottom: 35px;
+
+    }
+
+    50% {
+
+        bottom: 110px;
+
+    }
+
+    100% {
+        bottom: 177px;
+
+    }
+
+}
+
+@keyframes rouge {
+
+    0% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: red;
+    }
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.BLEU {
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    border: black solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h2 {
+    margin-left: 200px;
+    padding: 20px;
+
+}
+
+.rotateX:active {
+    animation: rotateX 2s ease forwards alternate infinite;
+
+
+}
+
+
+
+@keyframes rotateX {
+
+    from {
+        transform: rotateX();
+    }
+
+    to {
+        transform: rotateX(180deg);
+    }
+
+}
+
+.rotateY:active {
+    animation: rotateY 2s ease forwards alternate infinite;
+
+}
+
+@keyframes rotateY {
+
+    from {
+        transform: rotateY();
+
+    }
+
+    to {
+        transform: rotateY(180deg);
+
+    }
+
+}
+
+.rotateZ:active{
+    animation: rotateZ 2s ease forwards alternate infinite;
+
+
+
+}
+
+@keyframes rotateZ 
+{from{transform: rotateZ();
+
+}
+to{transform: rotateZ(200deg);}
+
+}
+    

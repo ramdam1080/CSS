@@ -1,0 +1,25 @@
+header{
+
+flex: 1;
+background-color: blue;
+height: 80px;
+border-radius: 10px;
+}
+article{background-color: cyan;flex: 2; border-radius: 10px; margin: 5px;order: 2;}
+aside{background-color: chocolate;flex: 1;
+    order: 3;
+    border-radius: 10px; margin: 5px;}
+nav{background-color: chocolate;flex: 1;border-radius: 10px; margin: 5px;order: 1;}
+.container{
+
+    display: flex;
+    height: 70vh;
+  
+}
+
+footer{flex: 1;
+    background-color: blue;
+   height: 80px;
+    border-radius: 10px;}
+
+

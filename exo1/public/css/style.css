@@ -1,0 +1,10 @@
+h1{color: red;}
+h2{color: blue;}
+p{background-color: red;
+font-size: 40px;
+font-weight: bold;}
+.border{text-decoration: underline;}
+
+li{
+    font-style: italic;
+}
